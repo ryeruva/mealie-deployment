@@ -3,8 +3,8 @@ FROM ghcr.io/mealie-recipes/mealie:latest
 # Set environment variables
 ENV ALLOW_SIGNUP=false
 ENV TZ=America/Los_Angeles
-ENV BASE_URL=https://spring-prep-hike-production.up.railway.app
-ENV CORS_ORIGINS=*
+ENV BASE_URL=https://mealie-deployment-production.up.railway.app
+ENV CORS_ORIGINS=https://ryeruva.github.io
 
 # Expose port
 EXPOSE 8080
