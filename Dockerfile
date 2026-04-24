@@ -7,7 +7,7 @@ ENV BASE_URL=https://spring-prep-hike-production.up.railway.app
 ENV CORS_ORIGINS=*
 
 # Expose port
-EXPOSE 9000
+EXPOSE 8080
 
 # Run the application
 CMD ["sh", "-c", "uvicorn mealie.app:app --host 0.0.0.0 --port ${PORT:-8080}"]
